@@ -183,7 +183,7 @@ Error generating stack: `+l.message+`
     display: flex;
     flex-direction: column;
     gap: 15px;
-`;function zy(i){const s=i.tasks.map(r=>B.jsx(xy,{task:r,onEdit:i.onEdit,onTogle:i.onTogle,onRemove:i.onRemove},r.id)),d=s.length>0?s:B.jsx("li",{children:"Список пуст"});return B.jsx(Oy,{children:d})}const _y="/taskLite/assets/react-CHdo91hT.svg",My=rt.h1`
+`;function zy(i){const s=i.tasks.map(r=>B.jsx(xy,{task:r,onEdit:i.onEdit,onTogle:i.onTogle,onRemove:i.onRemove},r.id)),d=s.length>0?s:B.jsx("li",{children:"Список пуст"});return B.jsx(Oy,{children:d})}const _y="/tasklite/assets/react-CHdo91hT.svg",My=rt.h1`
     color: ${i=>i.theme.colors.accent};
     font-size: ${i=>i.theme.spacing(4)}
 `,Dy=rt.p`
